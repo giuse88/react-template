@@ -13,7 +13,7 @@ module.exports = function (grunt) {
     connect: {
       app: {
         options: {
-          port: 4500,
+          port: 3000,
           keepalive: true,
           base: path.join(__dirname, "public")
         }

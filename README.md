@@ -1,7 +1,19 @@
-<<<<<<< HEAD
-# es6
-Es6 examples :D 
-=======
 # react-template
 React boilerplate app
->>>>>>> 478cb57... Initial commit
+
+#Start 
+
+Install dependencies:
+```
+  make bootstrap
+```
+
+Start app 
+```
+  make
+```
+
+#What's in?
+
+The template app uses browserify to bundle toghether the code.
+

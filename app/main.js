@@ -1,8 +1,8 @@
 var React = require("react");
-var CommentBox = require("./components/CommentBox");
+var Component = require("./components/Component");
 
 function render(element, id) {
-  React.render(<CommentBox />, document.getElementById(id));
+  React.render(<Component />, document.getElementById(id));
 }
 
-render(CommentBox, "content");
+render(Component, "content");
